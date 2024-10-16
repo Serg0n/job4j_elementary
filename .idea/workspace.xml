@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32126e69-5e7c-42ec-ae6c-7da3059446e1" name="Changes" comment="Загрузка файлов на github [#505269 #517658]">
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="32126e69-5e7c-42ec-ae6c-7da3059446e1" name="Changes" comment="Загрузка файлов на github [#505269 #517658]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +89,39 @@
       <option name="project" value="LOCAL" />
       <updated>1729037479909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Фиксация изменений на github [#505270 #517660]">
+      <option name="closed" value="true" />
+      <created>1729037628737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729037628737</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Загрузка файлов на github [#505269 #517658]">
+      <option name="closed" value="true" />
+      <created>1729037709554</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729037709554</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Фиксация изменений на github [#505270 #517660]">
+      <option name="closed" value="true" />
+      <created>1729037733163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729037733163</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Загрузка файлов на github [#505269 #517658]">
+      <option name="closed" value="true" />
+      <created>1729037894076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729037894076</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
