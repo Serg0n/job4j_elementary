@@ -19,4 +19,12 @@ public class EndsWithTest {
         boolean result = EndsWith.endsWith(word, postfix);
         assertThat(result).isFalse();
     }
+
+    @Test
+    public void whenEndWithPrefixThenTrue1() {
+        char[] word = {'П', 'р', 'и', 'в', 'е', 'т'};
+        char[] postfix = {'П', 'р', 'и', 'в', 'е', 'т'};
+        boolean result = EndsWith.endsWith(word, postfix);
+        assertThat(result).isTrue();
+    }
 }
