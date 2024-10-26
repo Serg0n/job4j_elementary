@@ -35,24 +35,23 @@ public class MatrixCheck {
         return result;
     }
 
-        public static boolean isWin(char[][] board) {
-            int size = board.length;
-            boolean result = false;
-            for (int i = 0; i < size; i++) {
-                if (board[i][i] == 'X') {
-                    if (monoHorizontal(board, i) || monoVertical(board, i)) {
-                        result = true;
-                        break;
-                    }
-                }
-                if (board[i][size - 1 - i] == 'X') {
-                    if (monoHorizontal(board, i) || monoVertical(board, size - 1 - i)) {
-                        result = true;
-                        break;
-                    }
+    public static boolean isWin(char[][] board) {
+        int size = board.length;
+        boolean result = false;
+        for (int i = 0; i < size; i++) {
+            if (board[i][i] == 'X') {
+                if (monoHorizontal(board, i) || monoVertical(board, i)) {
+                    result = true;
+                    break;
                 }
             }
-            return result;
+            if (board[i][size - 1 - i] == 'X') {
+                if (monoHorizontal(board, i) || monoVertical(board, size - 1 - i)) {
+                    result = true;
+                    break;
+                }
+            }
         }
-
+        return result;
+    }
 }
